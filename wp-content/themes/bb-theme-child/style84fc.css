@@ -1,0 +1,510 @@
+/*
+Theme Name: Beaver Builder Child Theme
+Theme URI: http://www.wpbeaverbuilder.com
+Version: 1.0
+Description: An example child theme that can be used as a starting point for custom development.
+Author: The Beaver Builder Team
+Author URI: http://www.fastlinemedia.com
+template: bb-theme
+*/
+
+/* Add your custom styles here... */
+
+
+.breadcrumbs {padding: 20px 0;font-size: 1.5rem;}
+
+
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+.breadcrumb {
+    padding: 0 20px;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 0;
+}
+.browse-bread {font-size:90%; }
+.row-grey {background-color: #f7f7f7;}
+.fl-page-nav-wrap {
+    border: none;
+}
+@media (max-width: 767px) {
+    .page-top-image .fl-row-content-wrap {
+        background-size: auto 500px;
+    }
+    .page-top-image .page-top-header h1 {
+        font-size: 40px;
+    }
+    .page-top-image .page-top-header h2 {
+        font-size: 24px;
+    }
+}
+a.fl-button, a.fl-button:visited, .fl-builder-content a.fl-button, .fl-builder-content a.fl-button:visited {
+    background: #008c8c;
+    color: #ffffff;
+    border: 0px solid #004f4f;
+    border-radius: 0;
+    -moz-border-radius: 0px !important;
+    -webkit-border-radius: 0 !important;
+    text-transform: uppercase !important;
+}
+
+.home-tabs a.fl-button, .home-tabs a.fl-button:visited, .home-tabs .fl-builder-content a.fl-button, .home-tabs .fl-builder-content a.fl-button:visited {
+    background: #fff;
+    color: #008c8c;
+    border: 0px solid #fff;
+    border-radius: 0;
+    -moz-border-radius: 0px !important;
+    -webkit-border-radius: 0 !important;
+    text-transform: uppercase !important;
+}
+
+button, input[type=button], input[type=submit] {
+    background: #008c8c;
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 0;
+    -moz-border-radius: 0px !important;
+    -webkit-border-radius: 0 !important;
+    text-transform: uppercase !important;
+}
+.fl-page-nav-right .fl-page-nav-wrap .navbar-nav > li.current-menu-item > a {
+    color: #00787c;
+}
+a.fl-button:hover, .fl-builder-content a.fl-button:hover {
+    background: #00787c;
+    color: #ffffff;
+    border: 0px solid #003d3f;
+}
+@media (min-width: 768px){
+    .navbar-nav {
+        float: none;
+        text-align: center;
+    }
+    .navbar-nav > li {
+        float: none;
+    }
+    .nav > li {
+        display: inline;
+    }
+    .nav > li > a {
+        display: inline-block;
+    }
+
+    .fl-page-nav .navbar-nav > li > a {
+        padding: 15px 15px;
+    }
+    .fl-page-nav .navbar-nav > li > a:hover {
+        background-color: #019696;
+    }
+}
+.fl-page-nav-wrap .navbar-nav > li.current-menu-item > a {
+    font-weight: 700;
+}
+.fl-page-nav-right.fl-page-header-fixed .fl-page-nav-wrap .navbar-nav > li > a, .fl-page-header-fixed .fl-page-nav-wrap .navbar-nav > li > a {
+    padding: 10px 10px;
+    font-size: .85em;
+}
+.top-phone {
+    float: left;
+    color: #777;
+    width: 145px;
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+.ptitle a {
+    color: #18a6a5;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.head-phone {font-size:28px; font-weight: 700; margin-bottom: 0;}
+.head-phone a:hover{color: #000000; text-decoration: none;}
+
+.fl-social-icons a{color: #008C8C;}
+.fl-social-icons a:hover{color: rgb(0, 178, 178);}
+
+
+
+.home-top .fl-cta-title {
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.9);
+    font-weight: 300;
+}
+
+
+
+.home-tabs a.fl-button, .home-tabs a.fl-button:visited {
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 14px !important;
+    padding: 0 24px 14px 24px !important;
+    text-decoration: none;
+    text-shadow: none;
+    margin-top: 15px;
+}
+
+.home-tabs .fl-tabs-panel-content { color: #ffffff !important;}
+.home-tabs .fl-tabs-panel-content h2 { color: #ffffff !important; margin-top: 0;}
+.home-tabs .fl-tabs-panel-content h4 { color: #ffffff !important;}
+.home-tabs .fl-tabs-panel-content {padding-bottom: 80px; padding-top: 60px;}
+@media (min-width: 992px) {
+    .home-tabs .fl-tabs-panel-content p{max-width: 50%;}
+}
+
+
+.home-tabs .fl-tabs-horizontal .fl-tabs-label.fl-tab-active {
+    background-color:#36393C;
+    color: #ffffff;
+}
+.home-tabs .fl-tabs-horizontal .fl-tabs-label.fl-tab-active:hover {
+    background-color:#36393C;
+    color: #ffffff;
+}
+.home-tabs .fl-tabs-horizontal .fl-tabs-label:hover {
+    background-color:#f7f7f7;
+}
+
+.home-bottom-boxes h3 {font-weight: 700;}
+
+
+
+@media (max-width: 1100px) {
+    .top-phone {
+        width: 130px;
+    }
+}
+
+@media (max-width: 992px) {
+    .fl-page-bar {
+        display: none;
+    }
+}
+@media (min-width: 992px) {
+    .fl-page-nav-right .fl-page-nav-wrap .navbar-nav > li > a:hover, .fl-page-nav-right .fl-page-nav-wrap .navbar-nav > li > a:focus {
+        color: #ffffff;
+    }
+}
+
+footer h2.widgettitle {font-size:14px; font-weight: 700;}
+
+footer ul[id*="menu-footer-col-"] li{
+    padding:2px 0; margin:0; font-size: 14px; line-height: 1.4;
+}
+
+footer .menu .current_page_item {font-weight: 700; }
+.fl-page-footer .navbar-nav > li.current-menu-item > a {
+    color: #008c8c;
+}
+
+.fl-page-footer .navbar-nav > li > a{
+    color: #008c8c;font-size: 14px;
+}
+.fl-page-footer .navbar-nav > li > a:hover, .fl-page-footer .navbar-nav > li > a:focus {
+    color: #008c8c;
+}
+
+.page-top-header h1, .page-top-header h2, .page-top-header h3 {
+    color: #ffffff;  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.9);
+    font-weight: 300;
+}
+.page-top-header h1 {
+    font-size: 60px;
+}
+.page-top-header h2 {
+    text-transform: none;
+}
+.page-main-content, .white-background {background-color: #ffffff;}
+.page-breadcrumbs{background-color: #000000; font-size: 14px;}
+.page-breadcrumbs a{color: #ffffff;}
+
+.fl-node-586b8d00ca985{background-color: #ffffff; margin-bottom: 60px;}
+
+.coupon-bar a.fl-button{font-weight:bold }
+
+.hours ul{margin: 0; padding: 0}
+
+span.hlabel {
+    float: left;
+    min-width: 110px;
+    font-weight: 700;
+}
+.white-text{color: #fff;}
+
+.form-side h2 {
+    font-size: 16px;
+    padding: 10px;
+    margin: -20px -20px 20px -20px;
+    background-color: #f7f7f7;
+    color: #c0231e;
+    font-weight: 700;
+}
+.form-side .gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium {
+    width: 100%;
+}
+
+.form-side .gform_wrapper ul.gfield_checkbox li input[type=checkbox]:checked+label, .gform_wrapper ul.gfield_radio li input[type=radio]:checked+label {
+    font-weight: 400;
+    font-size: .8em;
+}
+.form-side .gform_wrapper .field_sublabel_above ul.gfield_radio li label, .gform_wrapper .field_sublabel_below ul.gfield_checkbox li label {
+    font-weight: 400;
+    font-size: .8em;
+}
+.gform_body label {font-weight: 400 !important; font-size: 16px;}
+
+.gform_body select {padding: 5px; border-radius: 4px; border: 1px solid #e6e6e6;}
+
+.gform_wrapper .gfield_radio li label {
+     margin: 0 0 0 5px !important;
+ }
+.gform_wrapper .gfield_checkbox li label {
+    margin: 0 0 0 3px !important;
+}
+
+.gform_wrapper .gfield_checkbox li label, .gform_wrapper .gfield_radio li label {
+    display: -moz-inline-stack;
+    display: inline-block;
+    padding: 0;
+    width: auto;
+    line-height: 1.5;
+    font-size: 16px !important;
+    vertical-align: middle;
+    max-width: 85%;
+    white-space: normal;
+}
+.gform_wrapper input, .gform_wrapper select {border-radius: 0 !important;}
+
+img.foot-diamond{max-width: 80px; height: auto; }
+
+@media (min-width: 768px)
+{
+    /*This is just removing some default styles(not required)*/
+    .fl-page-nav ul.sub-menu
+    {
+        padding: 10px 0;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: 0;
+        background: none;
+    }
+
+    ul.navbar-nav li.mega-menu> ul.sub-menu:after
+    {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: -1px;
+        height: 100%;
+        width: 100vw;
+        transform: translateX(-50%);
+        z-index: -1;
+        box-sizing: border-box;
+        /*These styles are replacing the BB style that are being over written above (not required)*/
+        border-top: 1px solid #DEDEDE;
+        /*+box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.4);*/
+        -moz-box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.4);
+        -webkit-box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.4);
+        box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.4);
+        background-color: #fff;
+    }
+}
+ul.navbar-nav li.mega-menu > ul.sub-menu > li {
+
+    text-align: left;
+}
+.fl-page-nav ul.sub-menu li a {
+    clear: both;
+    color: #000;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 5px 20px;
+}
+.fl-page-nav ul.sub-menu li  a:hover {
+    color: #000;
+}
+.fl-page-nav ul.sub-menu li ul.sub-menu li a:hover {
+    color: #000;text-decoration: underline;
+}
+ul.navbar-nav li.mega-menu > ul.sub-menu > li img {
+    max-width: 260px;
+    height: auto;
+    margin-top: -20px;
+}
+@media (max-width: 767px){
+    ul.navbar-nav li.mega-menu > ul.sub-menu > li:last-child {
+        display:none;
+    }
+    ul.navbar-nav li.mega-menu > ul.sub-menu > li.menu-item-has-children {
+        display:none;
+    }
+}
+
+.menu-coupon{
+    text-align: center !important; color: #fff;
+    background: no-repeat center/90% url("../../uploads/2017/02/coupon-back-2.html");
+    max-width: 280px;
+    padding: 20px;
+    margin-top: -30px;
+}
+
+.menu-coupon .coupon-inner{padding:0 20px;margin-top: -10px;}
+.menu-coupon h3{
+    padding:0; margin:0; font-size: 12px;
+}
+.menu-coupon h2{
+    padding:0; margin:0; font-size: 38px; font-weight: 700;
+}
+.menu-coupon p{
+    padding:0; margin:0 0 5px 0; font-weight: 300;
+}
+.menu-coupon a.fl-button{
+}
+@media (max-width: 992px){
+
+    .menu-coupon{ padding: 20px;
+    }
+    .menu-coupon .coupon-inner{padding:20px 5px 0 5px;margin-top: -20px;}
+    .menu-coupon h3{
+        padding:0; margin:0; font-size: 10px;
+    }
+    .menu-coupon h2{
+        padding:0; margin:0; font-size: 16px; font-weight: 700; white-space: nowrap;
+    }
+    .menu-coupon p{ display: none;
+        padding:0; margin:0 0 5px 0; font-weight: 300;font-size: 8px;
+    }
+    .menu-coupon a.fl-button{
+        font-size: 10px !important;
+    }
+}
+
+.swatch-thumb {
+    max-height: 170px;
+    overflow: hidden;
+}
+
+.swatch-thumb img {
+    width: 100%;
+    height: auto;
+}
+.product-grid {text-align: center;}
+
+.product-grid h2{
+    font-weight: 700; margin: 0 0 10px 0; padding: 0;
+    font-size: 16px;
+}
+.product-grid h4{
+    font-size: 14px;margin: 5px 0 0 0; padding: 0;
+}
+.product-grid .fl-button {margin-bottom: 10px;}
+
+.product-grid a.link:hover{text-decoration: underline;}
+
+
+
+@media (max-width: 767px) {
+    .product-grid .row>:nth-child(2n+1) {
+        clear:left;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .product-grid .row>:nth-child(3n+1) {
+        clear:left;
+    }
+}
+@media (min-width: 992px) {
+    .product-grid .row>:nth-child(4n+1) {
+        clear:left;
+    }
+}
+
+.product-grid .swatch-thumb img{width:100%; height: auto; }
+
+.product-grid .fl-post-grid-post{ margin-bottom: 40px;
+
+}
+
+.facetwp-facet select{width:100%; padding: 10px;}
+
+.facetwp-selections ul li {font-size: 16px;}
+.facetwp-per-page {text-align: right !important; }
+.facetwp-per-page select{ padding: 5px;}
+
+.facetwp-counts {text-align: center; color: #fff; font-size: 32px; }
+.product-count{ text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.9);}
+
+.product-box {text-align: center; padding: 3.5rem 0;}
+.product-colors ul{ margin:15px 0 0 0; padding: 0; list-style: none;
+}
+.product-colors ul li{display: inline-block;text-align: left;
+    text-transform: uppercase;
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+.product-colors ul li.found {
+    font-size: 5rem;
+    padding-right: 15px;
+    font-weight: 300;
+}
+.product-atts ul{margin: 40px 0 0 0; padding:0; color: #008c8c;}
+.product-atts ul li{list-style: none; display: inline;margin: 0; padding: 20px 10px;text-transform: uppercase; letter-spacing: 1px;}
+.product-box h1{
+    margin: 0 0 0 0; padding:0; text-transform: none; font-weight: 700;
+}
+.product-box h2{
+    margin: 0 0 0 0; padding:0;
+    font-size: 1.8rem;
+}
+.product-atts a.fl-button{
+    padding: 10px 40px;
+}
+.product-swatch {text-align: center;}
+
+.product-swatch img.img-responsive {
+    margin: 0 auto;
+}
+.product-variations {margin: 80px 0 50px 0;}
+.product-variations img{width: 100%; height: auto; }
+
+.product-attributes{text-transform: capitalize; margin-bottom: 80px;}
+
+img.product-logo {
+    max-width: 140px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.color-box{margin-bottom: 30px; line-height: normal; min-height: 180px;}
+
+.color-box small{font-size: 80%;}
+
+.product-brand {
+    text-transform: uppercase;
+    font-size: 0.85em;
+    margin-bottom: 0;
+    min-height: 20px;
+    letter-spacing: 2px;
+}
+.faceted_results {
+    margin-top:20px;
+}
+
+.fl-page-nav ul.sub-menu li a:focus,.fl-page-nav ul.sub-menu li a:active {
+    color: #000;
+    text-decoration: none;
+}
+
+.fl-accordion-button-label {font-weight: 700;}
+
